@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/sitemap.xml

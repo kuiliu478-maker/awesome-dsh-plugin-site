@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Awesome DSH Plugin — Curated DeepSeek Harness (dsh) Plugin List</title>
+  <id>https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/</id>
+  <link href="https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/"/>
+  <link rel="self" href="https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/feed.xml"/>
+  <updated>2026-10-20T23:55:06.000Z</updated>
+  <entry>
+    <title>Assidefok/dsh-opencodego-status</title>
+    <id>https://github.com/Assidefok/dsh-opencodego-status</id>
+    <link href="https://github.com/Assidefok/dsh-opencodego-status"/>
+    <updated>2026-10-20T23:55:06.000Z</updated>
+    <summary>Floating overlay in the Harness Web UI with OpenCode Go usage: 5-hour rolling, weekly and monthly percentages, reset countdowns and the renewal date, with device-code sign-in and silent token refresh.</summary>
+  </entry>
+  <entry>
+    <title>Eileenes/dsh-reel</title>
+    <id>https://github.com/Eileenes/dsh-reel</id>
+    <link href="https://github.com/Eileenes/dsh-reel"/>
+    <updated>2026-10-20T20:32:28.000Z</updated>
+    <summary>A working Remotion prototype that turns a DSH plugin repository into a 16:9 promo video and a 3:4 promo image locally; its DSH bundle is scaffolded but has not yet been loaded into a real DSH profile. Requires Node.js 22+ and Chrome or Chromium for rendering.</summary>
+  </entry>
+  <entry>
+    <title>wshdp123/dsh-connect-qoder-pro</title>
+    <id>https://github.com/wshdp123/dsh-connect-qoder-pro</id>
+    <link href="https://github.com/wshdp123/dsh-connect-qoder-pro"/>
+    <updated>2026-10-20T20:32:16.000Z</updated>
+    <summary>Connects DSH to the local Qoder desktop client's sign-in to expose Qoder CN models (qmodel, qfmodel). Windows only: the credential is decrypted with DPAPI.</summary>
+  </entry>
+  <entry>
+    <title>imaused/dsh-kb-lite</title>
+    <id>https://github.com/imaused/dsh-kb-lite</id>
+    <link href="https://github.com/imaused/dsh-kb-lite"/>
+    <updated>2026-10-20T20:32:16.000Z</updated>
+    <summary>Local knowledge base for DeepSeek Harness: five tools to ingest Markdown, plain text and PDF files, search them with BM25 or hybrid BM25 plus optional local embeddings, and answer with cited source passages. Runs offline with no database server. Requires Node.js 18+ and Python 3.9+; PDF ingest needs pymupdf.</summary>
+  </entry>
+  <entry>
+    <title>TreeCodeTyper/dsh-blender-mc</title>
+    <id>https://github.com/TreeCodeTyper/dsh-blender-mc</id>
+    <link href="https://github.com/TreeCodeTyper/dsh-blender-mc"/>
+    <updated>2026-10-20T20:32:16.000Z</updated>
+    <summary>Turns a Minecraft Java save into a Blender cover or animation: scans the .mca region files for flat open ground, exports the terrain to OBJ, and drives Blender headless with MCprep materials, the BPS character rig and three-point lighting. After each render it reviews the frame with OpenCV for facing, ground contact, exposure, lighting and composition, then re-renders with adjusted parameters when a check fails. Requires Blender 4.2 LTS or newer and Python 3.10+ with opencv-python and numpy; the first run assembles the Minecraft assets with the bundled setup command.</summary>
+  </entry>
+  <entry>
+    <title>dingminhua/dsh-service-portal</title>
+    <id>https://github.com/dingminhua/dsh-service-portal</id>
+    <link href="https://github.com/dingminhua/dsh-service-portal"/>
+    <updated>2026-10-20T20:32:16.000Z</updated>
+    <summary>Exposes any local service on a LAN address and a public cloudflared quick-tunnel domain behind one password login, with per-route open/block gates managed from the plugin settings page. Requires Python 3 and cloudflared on the machine; LAN and local access are passwordless by default, while the public tunnel requires the passcode.</summary>
+  </entry>
+  <entry>
+    <title>CHYMZXS/dsh-archive-workbench</title>
+    <id>https://github.com/CHYMZXS/dsh-archive-workbench</id>
+    <link href="https://github.com/CHYMZXS/dsh-archive-workbench"/>
+    <updated>2026-10-20T19:33:27.000Z</updated>
+    <summary>Adds a Delete session item to the sidebar session row menu that permanently removes the session log directory, projection cache and archive/pin membership and drops its row from the sidebar, plus an archived-sessions panel where archived sessions can be restored or deleted.</summary>
+  </entry>
+  <entry>
+    <title>wjf1/dsh-prompt-enhance</title>
+    <id>https://github.com/wjf1/dsh-prompt-enhance</id>
+    <link href="https://github.com/wjf1/dsh-prompt-enhance"/>
+    <updated>2026-10-20T19:29:24.000Z</updated>
+    <summary>Sparkle button immediately left of the model selector that rewrites the composer draft into an executable prompt in place, modelled on WorkBuddy: the host calls the conversation LLM with a prompt-engineering system prompt, multi-level undo keeps up to 8 previous drafts, and a token-level diff card shows added and removed spans, the number of changed spots and the net character delta. Runs on the session model, is disabled while the draft is empty, and keeps the browser-session cookie fence in front of the LLM call.</summary>
+  </entry>
+  <entry>
+    <title>ium9khbep8834-maker/dsh-cache-saver</title>
+    <id>https://github.com/ium9khbep8834-maker/dsh-cache-saver</id>
+    <link href="https://github.com/ium9khbep8834-maker/dsh-cache-saver"/>
+    <updated>2026-10-20T19:29:24.000Z</updated>
+    <summary>Slims oversized MCP tool JSON Schemas per agent without changing dispatch, and reports token usage, cache hits and context composition on a settings page.</summary>
+  </entry>
+  <entry>
+    <title>PRTS · 源石协议</title>
+    <id>https://github.com/Nefelibater/dsh-theme-prts-originium</id>
+    <link href="https://github.com/Nefelibater/dsh-theme-prts-originium"/>
+    <updated>2026-10-20T19:29:24.000Z</updated>
+    <summary>Arknights PRTS Originium Protocol theme featuring interactive 3D crystal, tactical HUD, memory fragments, and boot sequence.</summary>
+  </entry>
+  <entry>
+    <title>Xin-kon/dsh-lang-guard</title>
+    <id>https://github.com/Xin-kon/dsh-lang-guard</id>
+    <link href="https://github.com/Xin-kon/dsh-lang-guard"/>
+    <updated>2026-10-20T19:29:07.000Z</updated>
+    <summary>Pins a Chinese (zh-CN) thinking and answering constraint into the system prompt, and registers a per-step runtime reminder so the agent does not drift back to English after tool output. Zero runtime dependencies, single file; falls back to a second registration path and only logs a warning when the host API changes.</summary>
+  </entry>
+  <entry>
+    <title>Qiujiyuantiantian/dsh-pdf2md</title>
+    <id>https://github.com/Qiujiyuantiantian/dsh-pdf2md</id>
+    <link href="https://github.com/Qiujiyuantiantian/dsh-pdf2md"/>
+    <updated>2026-10-20T19:29:07.000Z</updated>
+    <summary>Turns PDF, Word, PowerPoint and Excel files into Markdown or plain text with heading levels preserved where the source allows it, and refuses scanned PDFs that have no text layer instead of writing an empty file, naming the OCR alternative instead. Requires Python 3.10+ and pip install -r requirements.</summary>
+  </entry>
+  <entry>
+    <title>Qiujiyuantiantian/dsh-scan2md</title>
+    <id>https://github.com/Qiujiyuantiantian/dsh-scan2md</id>
+    <link href="https://github.com/Qiujiyuantiantian/dsh-scan2md"/>
+    <updated>2026-10-20T19:29:07.000Z</updated>
+    <summary>OCR for scanned, image-only PDFs into Markdown, built around the fact that a book takes about an hour: every page is checkpointed so an interrupted run resumes, a progress log reports live status, and a quality report names empty pages and low-confidence lines. Requires Python 3.10+ and pip install -r requirements; the first run downloads the OCR model.</summary>
+  </entry>
+  <entry>
+    <title>zhengqiuyang/dsh-trust-panel</title>
+    <id>https://github.com/zhengqiuyang/dsh-trust-panel</id>
+    <link href="https://github.com/zhengqiuyang/dsh-trust-panel"/>
+    <updated>2026-10-20T19:29:03.000Z</updated>
+    <summary>Plain-language trust dashboard for the dsh trust family: aggregates the nine channels (injection interception, write denials, egress blocks, custody-chain verification, tool-surface and prompt drift, leftover scans, forgotten compaction constraints, profile composition) into one right-sidebar panel with a single status light and event cards that translate engine jargon into sentences a non-security user can act on; the read and egress engines run from the package's own npm dependencies so those channels work even without the sibling plugins, and absent plugins simply show as not installed.</summary>
+  </entry>
+  <entry>
+    <title>moophone/dsh-sidebar-fold</title>
+    <id>https://github.com/moophone/dsh-sidebar-fold</id>
+    <link href="https://github.com/moophone/dsh-sidebar-fold"/>
+    <updated>2026-10-20T19:14:57.000Z</updated>
+    <summary>Folds every panel row in the sidebar (slot-registered and plugin-injected alike) into one Plugin Hub entry, giving the workspace list its vertical space back.</summary>
+  </entry>
+  <entry>
+    <title>Yuedalao/dsh-connect-minimax</title>
+    <id>https://github.com/Yuedalao/dsh-connect-minimax</id>
+    <link href="https://github.com/Yuedalao/dsh-connect-minimax"/>
+    <updated>2026-10-20T19:14:57.000Z</updated>
+    <summary>Connects an existing local MiniMax Code sign-in to DeepSeek Harness through a loopback reverse proxy without storing an API key or signing out.</summary>
+  </entry>
+  <entry>
+    <title>vagur1689/dsh-conversation-find</title>
+    <id>https://github.com/vagur1689/dsh-conversation-find</id>
+    <link href="https://github.com/vagur1689/dsh-conversation-find"/>
+    <updated>2026-10-20T19:14:57.000Z</updated>
+    <summary>In-conversation keyword search for the current session: pages the history back to its first window before matching, then highlights every hit and scrolls to the one you pick.</summary>
+  </entry>
+  <entry>
+    <title>kekydream/dsh-meeting-room</title>
+    <id>https://github.com/kekydream/dsh-meeting-room</id>
+    <link href="https://github.com/kekydream/dsh-meeting-room"/>
+    <updated>2026-10-20T19:14:57.000Z</updated>
+    <summary>Meeting notes for dsh: one meeting per conversation, transcribed and speaker-separated on the machine itself, with points, assignments, handwritten notes, reviews and monthly scores in the same panel. Exports SRT/Markdown/Word and packs a meeting into a portable zip another dsh can import; confirmed assignments go to DingTalk/WeCom in one click, following your robot settings. Recognition models are swappable (a stronger local model can be imported from a file), and cloud recognition is off by default with no request made before consent. Word export needs Python and python-docx; the first run downloads a recognition model (28 or 77 MB).</summary>
+  </entry>
+  <entry>
+    <title>RyeSama/dsh-plugin-guard#dsh-guard-tool</title>
+    <id>https://github.com/RyeSama/dsh-plugin-guard/tree/main/plugins/dsh-guard-tool</id>
+    <link href="https://github.com/RyeSama/dsh-plugin-guard/tree/main/plugins/dsh-guard-tool"/>
+    <updated>2026-10-20T19:14:57.000Z</updated>
+    <summary>Registers one agent tool, plugin_guard, that statically scans a DSH plugin package before it is installed and reports a verdict with the reasons: a missing or broken dsh.bundle.patch, a missing dsh.permissions block, install scripts, dangerous APIs and obfuscation, dependency risk, and source that is not indexed and therefore cannot be verified. Read-only: the scanned code is never imported, installed, evaluated or run.</summary>
+  </entry>
+  <entry>
+    <title>LUgABeEEE/dsh-global-todo</title>
+    <id>https://github.com/LUgABeEEE/dsh-global-todo</id>
+    <link href="https://github.com/LUgABeEEE/dsh-global-todo"/>
+    <updated>2026-10-20T18:56:40.000Z</updated>
+    <summary>Global cross-session todo list in the sidebar that the person and the agent both write to: ten global_todo_* tools add, batch-capture, update, attach documents and links to, append progress notes to and complete items from any session, and each item can be handed to an agent session in one of four modes with the outcome recorded on the item. The list is a single JSON file.</summary>
+  </entry>
+  <entry>
+    <title>Shiyuedong-Jade/DM-recovery</title>
+    <id>https://github.com/Shiyuedong-Jade/DM-recovery</id>
+    <link href="https://github.com/Shiyuedong-Jade/DM-recovery"/>
+    <updated>2026-10-20T18:56:40.000Z</updated>
+    <summary>Read-only assessment of whether a Dameng DM8 database can be recovered and to which point (LSN or time), across 16 recovery scenarios, with an HTML report. Needs Java 8+ and a Dameng JDBC driver jar (DmJdbcDriver8.jar) that you provide yourself.</summary>
+  </entry>
+  <entry>
+    <title>sjrslh/dsh-ui-zoom</title>
+    <id>https://github.com/sjrslh/dsh-ui-zoom</id>
+    <link href="https://github.com/sjrslh/dsh-ui-zoom"/>
+    <updated>2026-10-20T18:55:05.000Z</updated>
+    <summary>Ctrl+wheel page zoom (60–180%, remembered) for the whole DSH UI, plus a bottom-right Settings entry that opens the host settings panel, with Ctrl+0 to reset.</summary>
+  </entry>
+  <entry>
+    <title>wfz2006/dsh-status-bar#dsh-status-bar</title>
+    <id>https://github.com/wfz2006/dsh-status-bar/tree/main/packages/dsh-status-bar</id>
+    <link href="https://github.com/wfz2006/dsh-status-bar/tree/main/packages/dsh-status-bar"/>
+    <updated>2026-10-20T18:55:05.000Z</updated>
+    <summary>Floating glass status bar for DSH on Windows 11 x64: an always-on-top capsule that mirrors session progress, the current step and pending approvals from a local DSH web profile, with peek and detail views; approval cards stay read-only until DSH returns its own decision receipt, and connecting to the official Desktop app is experimental and unverified.</summary>
+  </entry>
+  <entry>
+    <title>gulagala001/opencu</title>
+    <id>https://github.com/gulagala001/opencu</id>
+    <link href="https://github.com/gulagala001/opencu"/>
+    <updated>2026-10-20T18:55:05.000Z</updated>
+    <summary>Computer use with browser automation, approvals and annotations for DSH; full desktop UI and native monitoring require matching host source adapters, patching and a host build.</summary>
+  </entry>
+  <entry>
+    <title>4444wjt/dsh-plugin-veriscope</title>
+    <id>https://github.com/4444wjt/dsh-plugin-veriscope</id>
+    <link href="https://github.com/4444wjt/dsh-plugin-veriscope"/>
+    <updated>2026-10-20T18:54:38.000Z</updated>
+    <summary>Release gate for AI answer quality. Two channels: replay an existing VeriScope archive through the original Python quality gate, or run a threshold gate over a Ragas per-row export with Node only — no VeriScope, Python or pandas. Returns PASS, FAIL or REVIEW with source evidence and a re-checkable receipt; supports per-row thresholds and exact decimal comparison. It never re-evaluates and never calls a model, and REVIEW never becomes PASS.</summary>
+  </entry>
+  <entry>
+    <title>flysusdjd/dsh-rank-board</title>
+    <id>https://github.com/flysusdjd/dsh-rank-board</id>
+    <link href="https://github.com/flysusdjd/dsh-rank-board"/>
+    <updated>2026-10-20T18:54:38.000Z</updated>
+    <summary>Ranks the top 400 DSH plugin candidates by live npm download counts and shows the top 200, with daily, weekly and monthly boards.</summary>
+  </entry>
+  <entry>
+    <title>dongfangxy/dsh-open-project</title>
+    <id>https://github.com/dongfangxy/dsh-open-project</id>
+    <link href="https://github.com/dongfangxy/dsh-open-project"/>
+    <updated>2026-10-20T18:51:19.000Z</updated>
+    <summary>Adds a Windows Explorer folder context-menu entry that registers the folder as a DSH project, with a switch for the menu entry in Settings → General. Windows only, and nothing extra has to be installed.</summary>
+  </entry>
+  <entry>
+    <title>ECNU/EduWork#dsh-oidc</title>
+    <id>https://github.com/ECNU/EduWork/tree/main/packages/dsh-oidc</id>
+    <link href="https://github.com/ECNU/EduWork/tree/main/packages/dsh-oidc"/>
+    <updated>2026-10-20T18:51:19.000Z</updated>
+    <summary>Configurable OIDC login and token-authorized model access, including LiteLLM and opt-in oidc-llm integration, with a standalone DSH Web backend.</summary>
+  </entry>
+  <entry>
+    <title>ECNU/EduWork#dsh-knowledge-studio</title>
+    <id>https://github.com/ECNU/EduWork/tree/main/packages/dsh-knowledge-studio</id>
+    <link href="https://github.com/ECNU/EduWork/tree/main/packages/dsh-knowledge-studio"/>
+    <updated>2026-10-20T18:51:19.000Z</updated>
+    <summary>A workspace-based Studio for source-grounded reports, slides, tables, mind maps, quizzes, flashcards, audio and video, using DSH models and shared artifact services. Office generation requires Python 3.12+ with its dependencies and DSH_OFFICE_PYTHON configured; media rendering requires Chromium, and local ASR additionally requires whisper.cpp and a model.</summary>
+  </entry>
+  <entry>
+    <title>SAXEM1997/dsh-ppt-master-wrapper</title>
+    <id>https://github.com/SAXEM1997/dsh-ppt-master-wrapper</id>
+    <link href="https://github.com/SAXEM1997/dsh-ppt-master-wrapper"/>
+    <updated>2026-10-20T18:51:19.000Z</updated>
+    <summary>Wraps the upstream ppt-master presentation skill set as an installable DeepSeek Harness plugin: byte-for-byte vendored skills, three lifecycle tools (ppt_master_info, ppt_master_check_env, ppt_master_setup_deps), optional venv interpreter isolation, and a Plugins-page configuration card. Requires python3 ≥ 3.10 plus the pip dependencies installed via `ppt_master_setup_deps`.</summary>
+  </entry>
+</feed>

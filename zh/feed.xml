@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Awesome DSH Plugin — DeepSeek Harness（dsh）插件精选列表</title>
+  <id>https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/zh/</id>
+  <link href="https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/zh/"/>
+  <link rel="self" href="https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/zh/feed.xml"/>
+  <updated>2026-10-20T23:55:06.000Z</updated>
+  <entry>
+    <title>Assidefok/dsh-opencodego-status</title>
+    <id>https://github.com/Assidefok/dsh-opencodego-status</id>
+    <link href="https://github.com/Assidefok/dsh-opencodego-status"/>
+    <updated>2026-10-20T23:55:06.000Z</updated>
+    <summary>在 Harness Web UI 上悬浮显示 OpenCode Go 用量：5 小时滚动、每周与每月百分比、重置倒计时与续订日期，支持设备码登录与静默刷新。</summary>
+  </entry>
+  <entry>
+    <title>Eileenes/dsh-reel</title>
+    <id>https://github.com/Eileenes/dsh-reel</id>
+    <link href="https://github.com/Eileenes/dsh-reel"/>
+    <updated>2026-10-20T20:32:28.000Z</updated>
+    <summary>本地用 Remotion 从 DSH 插件仓库生成 16:9 宣传片与 3:4 宣传图的可用原型；DSH bundle 仍是脚手架，尚未在真实 DSH profile 中加载验证。需 Node.js 22+ 与 Chrome/Chromium 渲染。</summary>
+  </entry>
+  <entry>
+    <title>wshdp123/dsh-connect-qoder-pro</title>
+    <id>https://github.com/wshdp123/dsh-connect-qoder-pro</id>
+    <link href="https://github.com/wshdp123/dsh-connect-qoder-pro"/>
+    <updated>2026-10-20T20:32:16.000Z</updated>
+    <summary>连接 DSH 与本地 Qoder 桌面客户端登录态，接入 Qoder CN 官方模型（qmodel、qfmodel）。仅 Windows：凭据读取依赖 DPAPI。</summary>
+  </entry>
+  <entry>
+    <title>imaused/dsh-kb-lite</title>
+    <id>https://github.com/imaused/dsh-kb-lite</id>
+    <link href="https://github.com/imaused/dsh-kb-lite"/>
+    <updated>2026-10-20T20:32:16.000Z</updated>
+    <summary>本地知识库：五个工具，导入 Markdown、文本与 PDF，用 BM25 或 BM25 + 本地向量的混合检索查找，回答时带原文引用。离线运行，不需要数据库服务。需 Node.js 18+ 与 Python 3.9+；导入 PDF 需 pymupdf。</summary>
+  </entry>
+  <entry>
+    <title>TreeCodeTyper/dsh-blender-mc</title>
+    <id>https://github.com/TreeCodeTyper/dsh-blender-mc</id>
+    <link href="https://github.com/TreeCodeTyper/dsh-blender-mc"/>
+    <updated>2026-10-20T20:32:16.000Z</updated>
+    <summary>把 Minecraft Java 存档变成 Blender 封面或动画：在 .mca 区域文件里找大片平地，导出地形为 OBJ，无头驱动 Blender（MCprep 材质、BPS 角色骨架、三点布光）。每次渲染后用 OpenCV 检查朝向、接地、曝光、布光和构图，不合格就调整参数重渲。需 Blender 4.2 LTS 以上、Python 3.10+（opencv-python、numpy），首次使用运行 setup 装配 Minecraft 素材。</summary>
+  </entry>
+  <entry>
+    <title>dingminhua/dsh-service-portal</title>
+    <id>https://github.com/dingminhua/dsh-service-portal</id>
+    <link href="https://github.com/dingminhua/dsh-service-portal"/>
+    <updated>2026-10-20T20:32:16.000Z</updated>
+    <summary>把一个口令登录的内网地址与公网 cloudflared 快速隧道域名提供给本机任意服务，每条路由的开放/屏蔽闸门在插件设置页里管理。需本机有 Python 3 与 cloudflared；内网与本机访问默认免密，公网隧道需要口令。</summary>
+  </entry>
+  <entry>
+    <title>CHYMZXS/dsh-archive-workbench</title>
+    <id>https://github.com/CHYMZXS/dsh-archive-workbench</id>
+    <link href="https://github.com/CHYMZXS/dsh-archive-workbench"/>
+    <updated>2026-10-20T19:33:27.000Z</updated>
+    <summary>在侧边栏会话行菜单中新增「删除会话」，永久清除该会话的日志目录、投影缓存与归档/置顶记录，并让该行从侧边栏消失；同时在侧边栏提供已归档会话面板，可恢复或删除已归档会话。</summary>
+  </entry>
+  <entry>
+    <title>wjf1/dsh-prompt-enhance</title>
+    <id>https://github.com/wjf1/dsh-prompt-enhance</id>
+    <link href="https://github.com/wjf1/dsh-prompt-enhance"/>
+    <updated>2026-10-20T19:29:24.000Z</updated>
+    <summary>模型选择器左侧的 ✨：把草稿原地改写成可执行的提示词（对标 WorkBuddy），调用在宿主侧完成；多层撤销最多保留 8 版，逐字差异卡标出新增与删除、改动处数与净增字数；增强跟随会话当前模型，草稿为空时自动置灰，调用前做浏览器会话 Cookie 校验。</summary>
+  </entry>
+  <entry>
+    <title>ium9khbep8834-maker/dsh-cache-saver</title>
+    <id>https://github.com/ium9khbep8834-maker/dsh-cache-saver</id>
+    <link href="https://github.com/ium9khbep8834-maker/dsh-cache-saver"/>
+    <updated>2026-10-20T19:29:24.000Z</updated>
+    <summary>按 agent 收敛过大的 MCP 工具 JSON Schema（调度不变），并在设置页展示 token 用量、缓存命中与上下文构成。</summary>
+  </entry>
+  <entry>
+    <title>PRTS · 源石协议</title>
+    <id>https://github.com/Nefelibater/dsh-theme-prts-originium</id>
+    <link href="https://github.com/Nefelibater/dsh-theme-prts-originium"/>
+    <updated>2026-10-20T19:29:24.000Z</updated>
+    <summary>明日方舟 PRTS 源石协议主题：可交互旋转 3D 源石晶簇、工业指令面板、普瑞赛斯记忆残片与启动序列。</summary>
+  </entry>
+  <entry>
+    <title>Xin-kon/dsh-lang-guard</title>
+    <id>https://github.com/Xin-kon/dsh-lang-guard</id>
+    <link href="https://github.com/Xin-kon/dsh-lang-guard"/>
+    <updated>2026-10-20T19:29:07.000Z</updated>
+    <summary>把「用中文思考和回答」钉进系统提示词，并每步注入一条运行时提醒，避免工具返回英文后语言漂移。零运行时依赖、单文件，带能力探测与降级注册，宿主 API 变更时仅记日志、不抛错。</summary>
+  </entry>
+  <entry>
+    <title>Qiujiyuantiantian/dsh-pdf2md</title>
+    <id>https://github.com/Qiujiyuantiantian/dsh-pdf2md</id>
+    <link href="https://github.com/Qiujiyuantiantian/dsh-pdf2md"/>
+    <updated>2026-10-20T19:29:07.000Z</updated>
+    <summary>把 PDF、Word、PPT、Excel 转成保留标题层级的 Markdown 或纯文本；遇到没有文字层的扫描件会主动拒绝（退出码 2），不会写一个空文件骗过下游，并指明可改用 OCR（dsh-scan2md）。需 Python 3.10+ 并安装仓库 requirements。</summary>
+  </entry>
+  <entry>
+    <title>Qiujiyuantiantian/dsh-scan2md</title>
+    <id>https://github.com/Qiujiyuantiantian/dsh-scan2md</id>
+    <link href="https://github.com/Qiujiyuantiantian/dsh-scan2md"/>
+    <updated>2026-10-20T19:29:07.000Z</updated>
+    <summary>把扫描版 PDF（影印书、拍照件）OCR 成 Markdown，并按“一本书要跑约一小时”来设计：逐页写检查点，中断可续跑；进度日志随时可查；质量报告点名空白页和低置信行。需 Python 3.10+ 并安装仓库 requirements；首次运行会下载 OCR 模型。</summary>
+  </entry>
+  <entry>
+    <title>zhengqiuyang/dsh-trust-panel</title>
+    <id>https://github.com/zhengqiuyang/dsh-trust-panel</id>
+    <link href="https://github.com/zhengqiuyang/dsh-trust-panel"/>
+    <updated>2026-10-20T19:29:03.000Z</updated>
+    <summary>信任面板：把 dsh 信任插件族九个通道（注入拦截、写拒绝、出网拦截、custody 链校验、工具面/系统提示词漂移、残留扫描、压缩遗忘约束、profile 组成）聚合成右侧栏一块仪表盘——一个状态灯 + 事件卡片，把引擎术语翻译成非安全背景用户能看懂并知道要不要处理的句子；read/egress 引擎随包自带 npm 依赖，未装兄弟插件也能工作，缺失的通道仅显示未安装。</summary>
+  </entry>
+  <entry>
+    <title>moophone/dsh-sidebar-fold</title>
+    <id>https://github.com/moophone/dsh-sidebar-fold</id>
+    <link href="https://github.com/moophone/dsh-sidebar-fold"/>
+    <updated>2026-10-20T19:14:57.000Z</updated>
+    <summary>把侧边栏里所有面板行（slot 注册与插件直接注入两类）折叠成单独一行「插件大全」，把被挤掉的工作区高度还给会话列表。</summary>
+  </entry>
+  <entry>
+    <title>Yuedalao/dsh-connect-minimax</title>
+    <id>https://github.com/Yuedalao/dsh-connect-minimax</id>
+    <link href="https://github.com/Yuedalao/dsh-connect-minimax"/>
+    <updated>2026-10-20T19:14:57.000Z</updated>
+    <summary>读取本机 MiniMax Code 登录态，经本地回环反向代理接入 DSH；不保存 API Key，也不会退出登录。</summary>
+  </entry>
+  <entry>
+    <title>vagur1689/dsh-conversation-find</title>
+    <id>https://github.com/vagur1689/dsh-conversation-find</id>
+    <link href="https://github.com/vagur1689/dsh-conversation-find"/>
+    <updated>2026-10-20T19:14:57.000Z</updated>
+    <summary>当前会话内的关键词搜索：先把会话历史翻回最早一页再匹配，命中处高亮并滚动定位到所选项。</summary>
+  </entry>
+  <entry>
+    <title>kekydream/dsh-meeting-room</title>
+    <id>https://github.com/kekydream/dsh-meeting-room</id>
+    <link href="https://github.com/kekydream/dsh-meeting-room"/>
+    <updated>2026-10-20T19:14:57.000Z</updated>
+    <summary>会议记录插件：一个会话对应一场会议，本机离线转写与发言人分离；要点、工作安排、手写笔记、复盘与月度评分都在面板里完成。可导出 SRT／Markdown／Word，也能打成「会议工程包」（zip）在另一台 dsh 导入；已确认的工作安排按设置一键推送到钉钉／企业微信。识别模型可更换（支持从本地文件导入更强的模型），云端识别默认关闭、未同意即零请求。导出 Word 需 Python 与 python-docx；首次使用会下载识别模型（28 MB 或 77 MB）。</summary>
+  </entry>
+  <entry>
+    <title>RyeSama/dsh-plugin-guard#dsh-guard-tool</title>
+    <id>https://github.com/RyeSama/dsh-plugin-guard/tree/main/plugins/dsh-guard-tool</id>
+    <link href="https://github.com/RyeSama/dsh-plugin-guard/tree/main/plugins/dsh-guard-tool"/>
+    <updated>2026-10-20T19:14:57.000Z</updated>
+    <summary>注册一个 agent 工具 plugin_guard，在安装前对 DSH 插件包做静态扫描，给出判定与原因：缺少或损坏的 dsh.bundle.patch、未声明 dsh.permissions、安装脚本、危险 API 与代码混淆、依赖风险，以及未索引、无法核验的源码。只读：不导入、不安装、不求值、不运行被扫描的代码。</summary>
+  </entry>
+  <entry>
+    <title>LUgABeEEE/dsh-global-todo</title>
+    <id>https://github.com/LUgABeEEE/dsh-global-todo</id>
+    <link href="https://github.com/LUgABeEEE/dsh-global-todo"/>
+    <updated>2026-10-20T18:56:40.000Z</updated>
+    <summary>侧边栏里的全局跨会话待办清单，人和 agent 共用同一份：十个 global_todo_* 工具可在任意会话中新增、批量抓取、修改、挂文档与链接、追加进展记录、标记完成；每条待办可按四种方式交给 agent 会话，派发结果记回条目本身。清单存成一个 JSON 文件。</summary>
+  </entry>
+  <entry>
+    <title>Shiyuedong-Jade/DM-recovery</title>
+    <id>https://github.com/Shiyuedong-Jade/DM-recovery</id>
+    <link href="https://github.com/Shiyuedong-Jade/DM-recovery"/>
+    <updated>2026-10-20T18:56:40.000Z</updated>
+    <summary>只读评估达梦 DM8 数据库的可恢复能力：16 类恢复场景下能恢复到哪一点（LSN/时间）、要丢什么，并生成 HTML 报告。需 Java 8+，并自备达梦 DmJdbcDriver8.jar。</summary>
+  </entry>
+  <entry>
+    <title>sjrslh/dsh-ui-zoom</title>
+    <id>https://github.com/sjrslh/dsh-ui-zoom</id>
+    <link href="https://github.com/sjrslh/dsh-ui-zoom"/>
+    <updated>2026-10-20T18:55:05.000Z</updated>
+    <summary>Ctrl+滚轮整页缩放（60%–180%，记住比例），右下角常驻「设置」入口可打开宿主设置面板，Ctrl+0 复位。</summary>
+  </entry>
+  <entry>
+    <title>wfz2006/dsh-status-bar#dsh-status-bar</title>
+    <id>https://github.com/wfz2006/dsh-status-bar/tree/main/packages/dsh-status-bar</id>
+    <link href="https://github.com/wfz2006/dsh-status-bar/tree/main/packages/dsh-status-bar"/>
+    <updated>2026-10-20T18:55:05.000Z</updated>
+    <summary>Windows 11 x64 上的 DSH 悬浮玻璃状态栏：常驻胶囊显示本地 DSH web profile 的会话进度、当前步骤与待处理审批，可展开速览与详情；审批卡在 DSH 返回正式回执前保持只读，连接官方 Desktop 应用属实验性、未验收。</summary>
+  </entry>
+  <entry>
+    <title>gulagala001/opencu</title>
+    <id>https://github.com/gulagala001/opencu</id>
+    <link href="https://github.com/gulagala001/opencu"/>
+    <updated>2026-10-20T18:55:05.000Z</updated>
+    <summary>为 DSH 提供浏览器操作、审批与批注；完整桌面界面与原生监看需匹配的宿主源码适配、补丁和构建。</summary>
+  </entry>
+  <entry>
+    <title>4444wjt/dsh-plugin-veriscope</title>
+    <id>https://github.com/4444wjt/dsh-plugin-veriscope</id>
+    <link href="https://github.com/4444wjt/dsh-plugin-veriscope"/>
+    <updated>2026-10-20T18:54:38.000Z</updated>
+    <summary>AI 回答质量的发布门禁。两条通道：用原 Python 门禁重放 VeriScope 归档，或仅用 Node 对 Ragas 逐条导出做阈值判定，后者不需要 VeriScope、Python 或 pandas。返回通过／失败／待复核，附出处与可复验回执；支持逐条阈值与精确十进制比较。不重新评测、不调用模型，待复核永不转为通过。</summary>
+  </entry>
+  <entry>
+    <title>flysusdjd/dsh-rank-board</title>
+    <id>https://github.com/flysusdjd/dsh-rank-board</id>
+    <link href="https://github.com/flysusdjd/dsh-rank-board"/>
+    <updated>2026-10-20T18:54:38.000Z</updated>
+    <summary>对前 400 个候选按 npm 实时下载量排序、展示前 200 名，支持日榜、周榜、月榜。</summary>
+  </entry>
+  <entry>
+    <title>dongfangxy/dsh-open-project</title>
+    <id>https://github.com/dongfangxy/dsh-open-project</id>
+    <link href="https://github.com/dongfangxy/dsh-open-project"/>
+    <updated>2026-10-20T18:51:19.000Z</updated>
+    <summary>在 Windows 资源管理器文件夹右键菜单中加入「用 DeepSeek Harness 打开」，点击后把该文件夹登记为 DSH 项目；设置 → 通用 里有一个开关用于添加或移除该菜单项。仅支持 Windows，无需额外安装任何组件。</summary>
+  </entry>
+  <entry>
+    <title>ECNU/EduWork#dsh-oidc</title>
+    <id>https://github.com/ECNU/EduWork/tree/main/packages/dsh-oidc</id>
+    <link href="https://github.com/ECNU/EduWork/tree/main/packages/dsh-oidc"/>
+    <updated>2026-10-20T18:51:19.000Z</updated>
+    <summary>可配置的 OIDC 登录与令牌授权模型接入，支持 LiteLLM 和显式启用的 oidc-llm 集成，提供独立 DSH Web 后端。</summary>
+  </entry>
+  <entry>
+    <title>ECNU/EduWork#dsh-knowledge-studio</title>
+    <id>https://github.com/ECNU/EduWork/tree/main/packages/dsh-knowledge-studio</id>
+    <link href="https://github.com/ECNU/EduWork/tree/main/packages/dsh-knowledge-studio"/>
+    <updated>2026-10-20T18:51:19.000Z</updated>
+    <summary>基于工作区资料的 Studio，复用 DSH 模型与共享成果服务，制作报告、演示文稿、表格、思维导图、测验、闪卡及音视频。Office 生成需 Python 3.12+ 及相关依赖，并配置 DSH_OFFICE_PYTHON；媒体渲染需 Chromium；本地语音转写另需 whisper.cpp 和模型。</summary>
+  </entry>
+  <entry>
+    <title>SAXEM1997/dsh-ppt-master-wrapper</title>
+    <id>https://github.com/SAXEM1997/dsh-ppt-master-wrapper</id>
+    <link href="https://github.com/SAXEM1997/dsh-ppt-master-wrapper"/>
+    <updated>2026-10-20T18:51:19.000Z</updated>
+    <summary>把上游 ppt-master 演示文稿技能集封装为可安装的 DeepSeek Harness 插件：逐字节 vendor 技能树，提供 ppt_master_info / ppt_master_check_env / ppt_master_setup_deps 三个生命周期工具、可选的 venv 解释器隔离与插件页配置卡片，需 python3 ≥ 3.10 + `ppt_master_setup_deps` 安装的 pip 依赖。</summary>
+  </entry>
+</feed>

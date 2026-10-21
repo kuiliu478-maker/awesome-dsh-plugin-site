@@ -1,0 +1,166 @@
+<!doctype html>
+<!-- Privacy page template. The :root block and @font-face are duplicated from
+     template.html — keep all three files in sync. Body prose per locale lives
+     in site/privacy.<code>.html, referenced from site/locales.mjs. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — Awesome DSH Plugin</title>
+<meta name="description" content="What this site collects and what it does not: no browser storage, cookie-less analytics, Google ads, and optional GitHub-hosted community comments.">
+<link rel="canonical" href="https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/privacy/">
+<link rel="alternate" hreflang="en" href="https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/privacy/">
+<link rel="alternate" hreflang="zh" href="https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/zh/privacy/">
+<link rel="alternate" hreflang="x-default" href="https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/privacy/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Privacy — Awesome DSH Plugin">
+<meta property="og:description" content="What this site collects and what it does not: no browser storage, cookie-less analytics, Google ads, and optional GitHub-hosted community comments.">
+<meta property="og:url" content="https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/privacy/">
+<meta property="og:image" content="https://kuiliu478-maker.github.io/awesome-dsh-plugin-site/og-en.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6f2ea">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#211d18">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="/logo.svg" type="image/svg+xml">
+<link rel="preload" href="/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* Self-hosted — see the note in site/template.html. */
+@font-face{
+  font-family:'Archivo';
+  font-style:normal;
+  font-weight:500 900;
+  font-display:swap;
+  src:url(/archivo-latin.woff2) format('woff2');
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face{
+  font-family:'Archivo';
+  font-style:normal;
+  font-weight:500 900;
+  font-display:swap;
+  src:url(/archivo-latin-ext.woff2) format('woff2');
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+/* Metric-matched fallback. While Archivo is still in flight, headings render
+   in this Arial (size-adjusted to Archivo's weight-800 advances - the h1 is
+   what drives layout) instead of whatever system-ui resolves to, so the swap
+   changes glyphs, not geometry. On Windows the Segoe UI fallback re-wrapped
+   the hero and shifted the whole card grid below it - the top remaining CLS
+   source in field data once the counters were fixed.
+
+   The ratio is against Arial REGULAR: local('Arial') grabs only the regular
+   face, and the synthetic bold the browser applies at weight 800 does not
+   widen advances. Measured in-browser on heading-length samples: Archivo@800
+   / synthetic-bold-Arial = 111.1%; Archivo ascent 88 and descent 21 per
+   100px em, divided by size-adjust. Verified: identical wrap heights across
+   15 width x text combinations, residual width delta 0.7%. */
+@font-face{
+  font-family:'Archivo Fallback';
+  src:local('Arial');
+  size-adjust:111.1%;
+  ascent-override:79.2%;
+  descent-override:18.9%;
+  line-gap-override:0%;
+}
+:root{
+  --paper:#f6f2ea; --paper-2:#efe9dd; --card:#fffdf8; --line:#e0d8c8; --line-2:#cfc5b0;
+  --ink:#2b2620; --ink-2:#5f574a; --ink-3:#8b8172;
+  --cinnabar:#c0392b; --cinnabar-deep:#a12f22; --cinnabar-soft:#f7e5e2; --cinnabar-border:#e5c4be;
+  --on-cinnabar:#ffffff;
+  --sans:"Inter","SF Pro Text","PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;
+  --display:"Archivo","Archivo Fallback","Inter","PingFang SC","Noto Sans SC",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono","Cascadia Code",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#211d18; --paper-2:#282218; --card:#2a2620; --line:#3b352c; --line-2:#4c4436;
+    --ink:#ece7de; --ink-2:#b5ac9e; --ink-3:#8f8678;
+    --cinnabar:#e06a52; --cinnabar-deep:#ea8069; --cinnabar-soft:rgba(224,106,82,.13); --cinnabar-border:rgba(224,106,82,.35);
+    --on-cinnabar:#211d18;
+  }
+}
+*{margin:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--cinnabar);text-underline-offset:.15em}
+a:hover{color:var(--cinnabar-deep)}
+.wrap{max-width:46rem;margin:0 auto;padding:0 1.3rem}
+header{border-bottom:1px solid var(--line);padding-block:1rem}
+header .row{display:flex;align-items:center;gap:1rem;max-width:46rem;margin:0 auto;padding:0 1.3rem}
+.logo{display:flex;align-items:center;gap:.55rem;font-family:var(--display);font-weight:700;font-size:.95rem;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
+.logo img{width:22px;height:22px}
+header .grow{flex:1}
+.lang-btn{font-size:.82rem;color:var(--ink-2);text-decoration:none;border:1px solid var(--line);border-radius:7px;padding:.22rem .6rem}
+.lang-btn:hover{border-color:var(--cinnabar-border);color:var(--cinnabar)}
+main{padding-block:2.6rem 1rem}
+h1{font-family:var(--display);font-size:clamp(1.6rem,3.6vw,2.3rem);font-weight:800;letter-spacing:-.025em;line-height:1.15}
+.updated{color:var(--ink-3);font-size:.86rem;margin-top:.7rem}
+.prose h2{font-family:var(--display);font-size:1.12rem;font-weight:700;letter-spacing:-.01em;margin:2.2rem 0 .5rem;padding-top:.9rem;border-top:1px solid var(--line)}
+.prose h3{font-size:.98rem;font-weight:650;margin:1.5rem 0 .3rem}
+.prose p,.prose li{color:var(--ink-2);margin:.55rem 0}
+.prose ul{padding-left:1.15rem}
+.prose strong{color:var(--ink);font-weight:650}
+.prose code{font-family:var(--mono);background:var(--cinnabar-soft);border:1px solid var(--cinnabar-border);border-radius:5px;padding:.06em .34em;font-size:.86em;color:var(--ink)}
+.prose table{width:100%;border-collapse:collapse;margin:.9rem 0;font-size:.92rem}
+.prose th,.prose td{text-align:left;padding:.5rem .6rem;border-bottom:1px solid var(--line);vertical-align:top;color:var(--ink-2)}
+.prose th{color:var(--ink);font-weight:650}
+footer{border-top:1px solid var(--line);margin-top:2.6rem;padding-block:1.6rem 2.6rem;color:var(--ink-3);font-size:.8rem}
+footer .frow{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem 1.5rem}
+footer a{color:var(--ink-2)}
+footer a:hover{color:var(--cinnabar)}
+</style>
+</head>
+<body>
+<header><div class="row">
+  <a class="logo" href="/"><img src="/logo.svg" alt="" width="22" height="22"><span translate="no">awesome-dsh-plugin</span></a>
+  <span class="grow"></span>
+  <a class="lang-btn" href="/zh/privacy/" hreflang="zh" rel="alternate">中文</a>
+</div></header>
+
+<main class="wrap prose">
+<h1>Privacy</h1>
+<p class="updated">Last updated 2026-08-30. This page is written from the code, not from intent — every claim below is checkable in <a href="https://github.com/awesome-dsh-plugin/awesome-dsh-plugin" rel="noopener">the repository</a> that builds this site. If something here does not match what the site does, that is a bug and we want to hear about it.</p>
+
+<h2>The short version</h2>
+<p>This is a static site with no accounts and no server we operate. It counts page views without identifying you and stores nothing of its own in your browser. It carries <a href="#advertising">Google ads</a>, which do use cookies.</p>
+
+<h2>Analytics</h2>
+<p>We use <strong>Cloudflare Web Analytics</strong>. It is cookie-less, does not fingerprint you, and does not follow you across sites. It records page views and coarse technical facts — referrer, country, browser and device class — which Cloudflare aggregates. We see counts, never individuals, and there is no way for us to single you out from them. See <a href="https://www.cloudflare.com/web-analytics/" rel="noopener">Cloudflare Web Analytics</a>.</p>
+
+<h2>Cookies and browser storage</h2>
+<p>This site sets none of its own; Google sets cookies for the ads — see <a href="#advertising">Advertising</a>. It writes nothing to <code>localStorage</code> or <code>sessionStorage</code>. Your filter, sort and search state lives in the URL, which never leaves your browser unless you copy the link yourself.</p>
+
+<h2>What a page loads</h2>
+<p>Fonts and stylesheets are served from this domain — there are no third-party webfonts. There are no social widgets, no tag managers, and no scripts beyond the analytics counter named above, the ad script described below, and the small amount of filtering code in the page itself. The optional comments client is not present or requested until you scroll its panel near the viewport; a page you open without scrolling down to the comments contacts no third party for them.</p>
+
+<h2>Community comments</h2>
+<p>Plugin detail pages can offer comments through <strong>Giscus</strong>, an open-source widget backed by GitHub Discussions. If you choose to load comments, your browser contacts <code>giscus.app</code> and GitHub. Comments, reactions, GitHub usernames and timestamps are public in the repository’s GitHub Discussions; you need a GitHub account to post. Giscus and GitHub process that interaction under their own terms and privacy policies. The site does not store a comment copy, and it never loads the widget for visitors who do not scroll to it.</p>
+
+<h3>Images inside plugin pages</h3>
+<p>Each plugin page reproduces that project's README, which may contain images. A README is written by a third party, so an image in it would otherwise be a request your browser makes to a host we do not control — which is exactly how a tracking pixel gets into a page. We therefore restrict those images to <strong>GitHub's own hosting</strong> (<code>raw.githubusercontent.com</code>, <code>user-images.githubusercontent.com</code>, <code>camo.githubusercontent.com</code>, <code>github.com</code>) and drop the rest, keeping their alt text. Because this site is itself served by GitHub Pages, GitHub already receives the request for the page — so the images that remain introduce no party that was not already there.</p>
+
+<h2>Hosting</h2>
+<p>The site is served by <strong>GitHub Pages</strong>. Like any web server, GitHub receives your IP address in order to answer the request. See the <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" rel="noopener">GitHub Privacy Statement</a>.</p>
+
+<h2>Links you choose to follow</h2>
+<p>Listings link to GitHub repositories, npm packages, and plugin authors' own sites. Following one is your decision, and from that point you are on someone else's site under their terms. We do not add tracking parameters to these links.</p>
+
+<h2>The catalog file</h2>
+<p><code>/plugins.json</code> is published for anyone to read, including the dsh-market plugin and third-party tools. It describes plugins — names, descriptions, categories, install commands — and contains nothing about visitors to this site.</p>
+
+<h2>Contributing</h2>
+<p>Submissions arrive as pull requests on GitHub, under GitHub's terms and with the visibility any public repository has. Nothing is submitted through this website; the optional comments UI writes to GitHub Discussions, not to a form or server we operate.</p>
+
+<h2 id="advertising">Advertising</h2>
+<p>This site carries ads from <strong>Google AdSense</strong>, loaded from <code>pagead2.googlesyndication.com</code>. Google sets cookies to serve and measure them and receives your IP address with each ad request. You can change what Google does with your data at <a href="https://myadcenter.google.com/" rel="noopener">My Ad Center</a>.</p>
+
+<h2>Contact</h2>
+<p>Corrections and questions: <a href="https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/issues" rel="noopener">open an issue</a>.</p>
+</main>
+
+<footer><div class="wrap frow">
+  <span>© 2026 awesome-dsh-plugin · <a href="https://github.com/awesome-dsh-plugin/awesome-dsh-plugin" rel="noopener">GitHub</a> · Not affiliated with DeepSeek</span>
+  <span><a href="/">← Back to the list</a></span>
+</div></footer>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7723c30caf6949b6b95780fb3ed9f6ac"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
